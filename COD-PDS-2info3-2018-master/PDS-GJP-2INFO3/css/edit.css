@@ -1,0 +1,423 @@
+*{margin: 0; padding: 0;}
+
+body{
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #461717; 
+	user-select: none;	
+}
+
+a{
+	color: #c4c2c0;
+	text-decoration: none;
+}
+
+img{
+	width: 100%;
+}
+
+.clearFix{
+	clear: both;
+}
+
+
+/*menu*/
+
+.menu{
+	width: 100%;
+	float: left;
+	background-color: #171a21;
+}
+
+.sideMenu{
+	width: 18%;
+	float: left;
+	user-select: none;
+}
+
+.sideMenu.login{
+	margin-left: 0.2%;
+	width: 6% !important;
+	background-color: #814549;
+	padding: 0.4%;
+	text-align: center;
+	border: 0.1px solid #712626;
+}
+
+.login a{
+	text-decoration: none;
+}
+
+.logoMenu{
+	padding: 1%;
+	width: 18%;
+	float: left;
+	user-select: none;
+	margin-right: 1%;
+}
+
+.gridMenu{
+	width: 40%;
+	float: left;
+}
+
+.item.menu{
+	font-size: 120%;
+	padding-top:7%; 
+	padding-bottom:5%; 
+	float: left;
+	text-align: center;
+}
+
+a:hover{
+	color: white;
+}
+
+#IM1{
+	width: 10%;
+}
+
+#IM2{
+	width: 17%;
+}
+
+#IM3{
+	width: 19%;
+}
+
+#IM4{
+	width: 15%;
+}
+
+#IM5{
+	width: 16%;
+}
+
+/* content/menu */
+
+.sideCont{
+	width: 15%;
+	float: left;
+	color: transparent;
+	user-select: none;
+}
+
+.contMenu{
+	width: 71%;
+	float: left;
+	background-color: #814549;
+	margin-top: 2%;
+}
+
+.contIM{
+	text-align: center;
+	border: 0.1px solid #712626;
+	font-size: 85%;
+	color: #d9dadd !important;
+	padding: 1.5%;
+	float: left;
+}
+
+.contIM:hover{
+	background-color: white;
+	color: black !important;
+}
+
+#CIM1{
+	width: 24.12%;
+}
+
+#CIM2{
+	width: 18.3%;
+}
+
+#CIM3{
+	width: 8.5%;
+}
+
+#CIM4{
+	width: 40%;
+	color: #d9dadd !important;
+	background-color: #814549 !important;
+}
+
+.contSearch{
+	border: 0.1px solid #712626;
+	float: left;
+}
+
+.contSearch input{
+	margin-top: 2.9%;
+	margin-bottom: 2.9%;
+	text-align: left;
+	float: left;
+	border: 0.2px solid #712626;
+	background-color: #461717;
+	color: white;
+    -webkit-border-radius:3px;
+}
+
+#IS1{
+	width: 45%;
+	margin-left: 35%;
+	padding: 1%;
+}
+
+#IS2{
+	width: 7%;
+	padding: 0.7%;
+	margin-left: 3%;
+	cursor: pointer;
+}
+
+.contDR{
+	width: 70%;
+	float: left;
+	margin-top: 3%;
+	margin-bottom: 10%;
+}
+
+.contUN{
+	width: 70%;
+	float: left;
+	margin-top: 3%;
+	background-color: #461717;
+}
+
+.sideSlide{
+	-webkit-border-radius:5px;
+	color: white !important;
+	margin-top: 19%;
+	text-align: center;
+	background-color: #171a21 !important;;
+	width: 3.5%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%; 
+	float: left;
+	font-size: 200%;
+	font-weight: 900;
+	cursor: pointer;
+}
+
+.sideSlide.ativo{
+	float: right !important;
+}
+
+.centerSlide{
+	width: 93%;
+	float: left;
+}
+
+
+.contDRtitle p{
+	margin-left: 4%;
+	margin-bottom: 3%;
+	color: white;
+	cursor: default;
+	user-select: none;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	text-shadow: 0px 1px white;
+}
+
+.contDRslide{
+	position: relative;
+	width: 100%;
+}
+
+.contUNtitle p{
+	margin-left: 4%;
+	margin-top: 4.5%;
+	color: white;
+	cursor: default;
+	user-select: none;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	text-shadow: 0px 1px white;
+}
+
+.hid{
+	display: none;
+}
+
+.autoSlide{
+	float: left;
+}
+
+.slide{
+	box-shadow: 1px -1px 10px 5px #171a21;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+/* BIBLIOTECA */
+
+.lado{
+	width: 15%;
+	color: transparent;
+	float: left;
+}
+
+.centro{
+	margin-top: 3%;
+	width: 70%;
+	float: left;
+}
+
+
+
+.listaJogos{
+	box-shadow: 1px -1px 10px 5px #171a21;
+	background-color: black;
+	padding: 0.5%;
+	width: 20%;
+	margin: 2%;
+	float: left;
+	color: white;
+}
+
+#o1{
+	position: fixed;
+}
+
+.listaJogos:hover{
+	box-shadow: 1px -1px 10px 5px #814549;
+}
+
+.listaJogos h5{
+	text-align: center;
+}
+
+.listaJogos a{
+	text-decoration: none;
+	color: red;
+}
+
+.listaJogos img{
+	width: 100%;
+}
+
+.hid{
+	display: none;
+}
+
+
+/* footer */
+
+.footer{
+	margin-top: 5%;
+	background-color: #171a21;
+	width: 95%;
+	padding: 2.5%;
+	color: #c4c2c0;
+	text-align: center;
+}
+
+/* especificaJogo */
+
+/* testezão pedrão */
+
+.boxinha{
+	width: 65.2%;
+	height: 60.5%;
+	position: absolute;
+	float: left;
+	margin-top: 6%;
+	margin-left: 17.4%;
+	color: white;
+	background-image: linear-gradient(191deg,  transparent, rgba(0,0,0,.9));
+}
+
+.titulobox{
+	font-size: 250%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-left: 0.7%;
+	margin-top: 39%;
+}
+
+
+.descbox{
+	font-size: 150%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-left: 1%;
+	margin-top: 0.5%;
+}
+
+.boxinabox{
+	background-image: linear-gradient(191deg,  transparent, rgba(0, 0, 26,.5));
+	height: 16.8%;
+}
+
+
+.twitch{
+	display: none;
+}
+
+/* aqui acabou */
+
+.headJogo{
+	margin-left: 2.3%;
+	width: 95.5%;
+	color: white;
+}
+
+.headJogo img{
+	margin-right: 1.5%;
+	width: 30%;
+	float: left;
+}
+
+.headJogo h1{
+	text-align: center;
+	font-size: 180%;
+	margin-top: 1%;
+	padding: 2%; 
+}
+
+.atributo{
+	font-size: 110%;
+	margin-left: 1%;
+	padding: 2.5%;
+	margin-left: 2%;
+}
+
+.conteudo{
+	margin-left: 39%;
+	width: 60%;
+	background-color: #171a21;
+	padding: 0.5%;
+	-webkit-border-radius:7px;
+}
+
+.contentJogo{
+	color: white;
+	margin-top: 2%;
+	padding: 0.5%;
+	-webkit-border-radius:7px;
+	background-color: #171a21;
+}
+
+.contentJogo img{
+	width: 85%;
+}
+
+.contentJogo h1{
+	text-align: center;
+	margin: 2%;
+}
+
+.contentJogo legend{
+	margin-left: 1%;
+}
+
+.contentJogo fieldset{
+	border-color: black;
+	padding: 1%;
+	margin: 1%;
+}
+
+.contentJogo p{
+	font-size: 115%;
+	margin: 1%;
+}

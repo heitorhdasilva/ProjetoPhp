@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Document</title>
+    <script>
+        $(document).ready(function () {
+            $("#oculta").click(function () {
+               $("#apagada").show();
+               $("#acesa").hide();
+            });
+            $("#mostra").click(function () {
+               $("#acesa").show();
+               $("#apagada").hide();
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Olar</h1>
+    <p>Turo bom?</p>
+    <div id="lorem">
+        <img src="https://i.stack.imgur.com/ybxlO.jpg" id="acesa"></img>
+        <img src="http://ap.imagensbrasil.org/images/lampada-apagada.jpg" id="apagada"></img>
+    </div>
+    <p>Que loco</p>
+    <button id="mostra">Acender</button>
+    <button id="oculta">Apagar</button>
+</body>
+</html>

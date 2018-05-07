@@ -1,0 +1,45 @@
+html{
+	font-family: 'Verdana', 'arial', sans-serif;
+	font-size: 120%;
+}
+#pro_lado{
+	float: 
+}
+
+.tab{
+	margin-top: 2px;
+	border:4px solid #ccc;
+	padding: 10px;
+	background: #fff;
+	cursor:pointer;
+}
+
+.tab:hover{
+	background: #ddd;
+}
+
+.ativo{
+	background: #7B68EE;
+	color:#fff;
+}
+
+.conteudo{
+	border:3px solid #ccc;
+	width: 50%;
+	margin-top: 11px;
+	padding: 20px;
+}
+
+.escondido{
+	display: none;
+}
+ #p_ajuste{
+ 	color: white;
+ 	float: left;
+ 	width: 35%;
+ }
+  #p_ajuste1{
+ 	color: white;
+ 	float: left;
+ 	width: 20%;
+ }

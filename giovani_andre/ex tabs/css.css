@@ -1,0 +1,35 @@
+.pequenas{
+	width: 100%;
+}
+.pequenas img{
+	width: 25%;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.modal{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.9;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.grande{
+	width: 25%;
+	margin-left: 10%;
+	margin-top: 150px;
+}
+
+.escondido{
+	display: none;
+}
+.fechar{
+	color: :#fff;
+	cursor: pointer;
+	float: right;
+	width: 50px;
+}

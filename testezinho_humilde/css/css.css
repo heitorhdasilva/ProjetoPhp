@@ -1,0 +1,66 @@
+#paralax{
+	background-image: url("../images/bg.jpg");
+	height: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo{
+	width: 10%;
+	border: 1px black;
+	float: left;
+	border: 1px #0A5307;
+}
+
+.espaco45{
+	width: 45%;
+	float: left;
+}
+
+.bgverde{
+	background: green;
+	height: 15rem;
+	opacity: 1.0;
+}
+#teste{
+	margin-top: -1% !important;
+}
+
+.espaco33{
+	float: left;
+	width: 15%;
+}
+
+.espaco33e{
+	float: right;
+	width: 15%;
+}
+
+.corpo{
+	background: white;
+	width: 70%;
+	float: left;
+	border: 2px solid #BABCBA;
+	opacity: 0.90;
+}
+
+.divider{
+	clear: both;
+}
+
+.imagenscorpo{
+	width: 30%;
+	position: relative;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-bottom: 0.5%;
+}
+
+.paragrafo{
+	margin-top: 2%;
+	width: 68%;
+	float: right;
+	font-size: 150%;
+}
